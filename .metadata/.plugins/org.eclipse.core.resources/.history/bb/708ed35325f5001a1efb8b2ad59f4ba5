@@ -1,0 +1,18 @@
+/*
+ * main.c
+
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+
+int main()
+{
+	int arr[]={1,2,3,4,5};
+	printf("%d",strlen((const char*)arr));
+	return 0;
+}
+
+
+

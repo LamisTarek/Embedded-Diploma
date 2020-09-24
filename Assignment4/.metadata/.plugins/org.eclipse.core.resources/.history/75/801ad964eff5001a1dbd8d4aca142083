@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 13, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+int main(){
+char s[]="Hello\ohi";
+printf("%d %d",strlen(s),sizeof(s));
+return 0;
+}
+

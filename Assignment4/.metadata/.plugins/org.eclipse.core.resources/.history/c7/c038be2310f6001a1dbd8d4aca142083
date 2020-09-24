@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+//reverse digits
+#include"stdio.h"
+#include"math.h"
+int find_sum(int n){
+	if(n==1)
+		return 1;
+	return n+find_sum(n-1);
+}
+
+
+int main(){
+	printf("Sum numbers from 1 to 100 is= %d",find_sum(100));
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2020
+ *      Author: HEI
+ */
+//are of a circle macros
+#include"stdio.h"
+int main(){
+	int raduis;
+	float area;
+	printf("Enter the raduis:");
+	fflush(stdint); fflush(stdout);
+	scanf("%d",&raduis);
+	area=
+			printf("Area=%.2f",area);
+	return 0;
+}

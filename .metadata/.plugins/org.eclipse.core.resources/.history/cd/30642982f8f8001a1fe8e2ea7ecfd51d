@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 17, 2020
+ *      Author: HEI
+ */
+//search element and return index
+#include"stdio.h"
+int search(int a){
+	int i,n,elem;
+	if(i<n){
+		if(a[i]==elem)
+			return 1;
+	}
+}
+
+
+
+
+
+
+
+int main(){
+	int a[100],i,n,elem;
+	printf("Enter size of the array:");
+	fflush(stdout);
+	scanf("%d",&n);
+	printf("Enter elements in the array: ");
+	for(i=0;i<=n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("Enter  the searched Element:");
+	fflush(stdout);
+	scanf("%d",&elem);
+}
+

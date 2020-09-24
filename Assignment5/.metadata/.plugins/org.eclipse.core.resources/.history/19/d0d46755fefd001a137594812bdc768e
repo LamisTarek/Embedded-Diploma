@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2020
+ *      Author: HEI
+ */
+//store information for student using structure
+#include"stdio.h"
+struct student{
+	char names[50];
+	int number;
+	float marks;
+}gx;
+
+int main(){
+	struct student gx;
+	printf("Enter information of students\n\n:");
+	printf("Enter name:");
+	scanf("%s",gx.names);
+	printf("Enter roll number:");
+	scanf("%d",&gx.number);
+	printf("Enter marks: ");
+	scanf("%f",&gx.marks);
+	printf("\nDisplyaing Information\n");
+	printf("Name: %s\n",gx.names);
+	printf("Roll: %d\n",gx.number);
+	printf("Marks: %f\n",gx.marks);
+	return 0;
+
+
+}

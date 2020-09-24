@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 17, 2020
+ *      Author: HEI
+ */
+//print an array
+#include"stdio.h"
+void printarr(int arr[],int size);
+int main(){
+	int arr[50],n;
+	printf("Enter the size if the array:");
+	fflush(stdout);
+	scanf("%d",&n);
+	printf("Enter the elements of the array");
+	fflush(stdout);
+	printarr(arr,50);
+	return 0;
+}
+void printarr(int arr[],int size)
+{
+	int i;
+	for(i=0;i<size;i++)
+	{
+		printf("%d",arr[i]);
+	}
+}
+

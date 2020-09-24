@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 13, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+int main(){
+	printf("%d",myfun());
+	return 0;
+}
+char myfun()
+{
+	return 10;
+}
+

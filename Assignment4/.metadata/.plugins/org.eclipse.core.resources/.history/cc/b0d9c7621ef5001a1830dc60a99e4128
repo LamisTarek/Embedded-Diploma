@@ -1,0 +1,39 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+
+#include"stdio.h"
+int main(){
+	float t=2;
+	switch(t)
+	{
+	case 1;
+	printf ("case 1");
+	break;
+	case 2:
+		printf("case 2");
+		break;
+	default:
+		printf("DEFAULT");
+
+
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

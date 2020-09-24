@@ -1,0 +1,38 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 17, 2020
+ *      Author: HEI
+ */
+
+#include"stdio.h"
+int count1s( int num)
+{
+	int c=0;
+	while(num!=0)
+	{
+		num=num&(num-1);
+		c++;
+	}
+	return c;
+}
+
+int main(){
+	int arr[10],num,i=0;
+	printf("Enter number to convert:");
+	fflush(stdout);
+	scanf("%d",&num);
+	for(i=0;num>0;i++)
+	{
+		arr[i]=num%2;
+		num/=2;
+	}
+	for(i=i-1;i>=0;i--)
+	{
+		printf("%d",arr[i]);
+	}
+	count1s(num);
+	printf("\n1's in binary number: %d",count1s(num));
+
+}
+

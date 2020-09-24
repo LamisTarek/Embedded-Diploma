@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+//reverse function
+#include"stdio.h"
+int main(){
+	int a[3]={2, ,1};
+	printf("%d",a[a[0]]);
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

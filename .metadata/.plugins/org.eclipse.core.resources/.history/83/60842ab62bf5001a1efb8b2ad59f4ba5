@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: lamis
+ */
+#include"stdio.h"
+include <math.h>
+
+double findsqr(double num){
+	return sqrt(num);
+}
+
+
+int main(){
+	int num;
+	printf("Enter a number:");
+		fflush(stdout);
+		printf("Square root of %d is %f\n",num,findsqr(num));
+		return 0;
+}
+
+

@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 13, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+int myfun(const int x)
+{
+	int y;
+	y=++x +10;
+	return y;
+}
+int main()
+{
+	int x=10;
+	int res= myfun(x);
+	printf("%d",res);
+	return 0;
+}
+

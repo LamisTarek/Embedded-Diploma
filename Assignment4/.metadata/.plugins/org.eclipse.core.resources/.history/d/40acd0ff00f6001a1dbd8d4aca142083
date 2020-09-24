@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+//reverse digits
+#include"stdio.h"
+#include"math.h"
+
+int reverse(int n);
+int main(){
+		int n,rev;
+		printf("Enter a number to be reversed: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%d",&n);
+		rev= reverse(n);
+		printf("Reverse of number is %d",rev);
+		return 0;
+	}
+
+int reverse(int n)
+{
+	int digit=(int)log10(n);
+	if(n==0)
+		return 0;
+	return ((n%10*pow(10,digit))+reverse(n/10));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+
+#include"stdio.h"
+
+	int main(){
+		int n;
+		printf("Enter a number to be reversed: ");
+		fflush(stdin); fflush(stdout);
+		scanf("%d",&n);
+		printf("Reverse of no is %d",reverse(n));
+		getchar();
+		return 0;
+	}
+
+	int reverse(int n){
+		int rev_num=0;
+		while(n>0){
+			rev_num=rev_num*10+n%10;
+			n=n/10;
+		}
+		return rev_num;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

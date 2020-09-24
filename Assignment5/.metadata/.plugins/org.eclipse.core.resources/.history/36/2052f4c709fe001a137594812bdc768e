@@ -1,0 +1,37 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2020
+ *      Author: HEI
+ */
+//add complex number
+#include"stdio.h"
+struct Complex{
+	float real;
+	float imagin;
+}complex;
+
+complex add(complex n1,complex n2);
+int main(){
+	complex n1,n2,xx;
+	printf("Enter 1st complex number\n");
+	fflush(stdout);
+	printf("Enter real and imaginary respectively:");
+	fflush(stdout);
+	scanf("%f%f",&n1.real &n1.imagin);
+
+	printf("Enter 2st complex number\n");
+	fflush(stdout);
+	printf("Enter real and imaginary respectively:");
+	fflush(stdout);
+	scanf("%f%f",&n2.real,&n2.imagin);
+	xx=add(n1,n2);
+	printf("sum=%.1f+%.1f",xx.real,&xx.imagin);
+	return 0;
+}
+complex add(complex n1,complex n2){
+	complex xx;
+	xx.real=n1.real+n2.real;
+	xx.imagin=n1.imagin+n2.imagin;
+	return xx;
+}

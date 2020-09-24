@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+
+#include"stdio.h"
+int main(){
+	char x='5';
+	if(x==5)
+		printf("b");
+	else
+		printf("m");
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

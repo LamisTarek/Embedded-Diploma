@@ -1,0 +1,8 @@
+01:50:44 **** Incremental Build of configuration Debug for project Quiz ****
+Info: Internal Builder is used for build
+gcc -o Quiz.exe main.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Quiz.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+01:50:45 Build Finished (took 958ms)
+

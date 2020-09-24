@@ -1,0 +1,43 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+//num of ones
+#include"stdio.h"
+#include"math.h"
+int count1s(unsigned int n)
+{
+	unsigned int c;
+	for(c=0;n;n>>=1)
+	{
+		c+=n&1;
+	}
+	return c;
+}
+
+
+void main(){
+	unsigned int n;
+	printf("Enter a positive integer: ");
+	fflush(stdout);
+	scanf("%u",&n);
+	printf("%d",count1s(n));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+struct Sstudent{
+	char name[10];
+	int num;
+	float marks;
+};
+
+

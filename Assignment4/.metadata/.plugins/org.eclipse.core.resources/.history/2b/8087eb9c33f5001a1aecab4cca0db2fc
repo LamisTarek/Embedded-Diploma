@@ -1,0 +1,31 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+void count1s(int num){
+	int count1=0, count0=0;
+	while(num>0)
+		if (num&1){
+			count1++;
+		}
+		else{
+			count0++;
+		}
+
+	num=num>>1;
+}
+	printf("count of is is : %d",count1);
+
+int main(){
+	int num;
+	printf("Enter a number:");
+	fflush(stdout);
+	scanf("%d",&num);
+	count1s(num);
+	return 0;
+}
+
+

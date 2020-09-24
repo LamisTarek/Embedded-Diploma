@@ -1,0 +1,21 @@
+/*
+ * main.c
+
+ *
+ *  Created on: Sep 12, 2020
+ *      Author: HEI
+ */
+#include"stdio.h"
+int myfun()
+{
+	int y=20;
+	return y;
+}
+int main()
+{
+	static int res= myfun();
+	printf("%d",res);
+	return 0;
+}
+
+
